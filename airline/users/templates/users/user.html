@@ -1,5 +1,6 @@
 {% extends "users/layout.html" %}
 
+
 {% block body %}
     {% csrf_token %}
     <h1>Wellcome,{{request.user.first_name}} </h1>
